@@ -1,0 +1,569 @@
+* {
+	margin: 0;
+	font-family: 'Overpass', sans-serif;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+header {
+	background-image: url("images/bg-pattern-intro-desktop.svg"),
+	linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+	background-repeat: no-repeat;
+	background-position: 25% 50%;
+	height: 80vh;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	border-radius: 0 0 0 90px;
+	text-align: center;
+
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-size: 3.5rem;
+
+}
+
+.hamburger {
+	display: none;
+	position: relative;
+	cursor: pointer;
+}
+
+.login-signup {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 12%;
+}
+
+.login{ 
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+ }
+
+
+ .sign-up {
+ 	border:none;
+	color: hsl(356, 100%, 66%);
+	padding: 0.5rem 1.2rem;
+ 	 }
+
+nav, .menu, .menu-container{
+	display: flex;
+}
+
+button {
+	cursor: pointer;
+
+}
+
+nav li {
+	font-weight: bold;
+}
+
+.arrow {
+	height: 0.5rem;
+	align-self: center;
+	padding-left: 1rem;
+	cursor: pointer;
+	width: 15px;
+	padding-left: 7px;
+
+}
+nav {
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 1rem;
+}
+.menu-container{
+	align-items: flex-start;
+	justify-content: center;
+}
+.brand {
+	padding-right: 2rem;
+/*	padding-top: 1rem;*/
+}
+
+.menu {
+	justify-content: space-evenly;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+	cursor: pointer;
+	
+}
+.nav-option {
+	padding: 1rem 2rem;
+	position: relative;
+}
+
+.dropdown-product, .dropdown-company, .dropdown-connect {
+	background-color: white;
+	color: hsl(237, 17%, 21%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	/*padding: 1rem;*/
+	border-radius: 5px;
+	display: none;
+	font-size: 0.8rem;
+	margin: 0;
+	position: absolute;
+	top: 40px;
+	padding: 0.5rem 1rem;
+	align-items: start;
+}
+
+.drop-option{
+	padding: 0.5rem 0.5rem
+}
+
+.drop-option:hover {
+	color: hsl(353, 100%, 62%);
+}
+
+.desktop-menu {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: start;
+}
+
+.button {
+	border-radius: 25px;
+	font-weight: bold;
+	font-size: 1em;
+	border: none;
+}
+.option-container {
+	display: flex;
+	flex-direction: column;
+}
+.hero-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	justify-content: center;
+}
+
+.start {
+	border: none;
+	background-color: white;
+	color: hsl(356, 100%, 66%);
+	padding: 0.5rem 1.8rem;
+	}
+
+.start:hover {
+	color: white;
+	background-color: hsl(355, 100%, 74%);
+}
+.learn-more {
+	color: white;
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid white;
+	padding: 0.8rem 2rem;
+}
+
+
+.learn-more:hover {
+	background-color: white;
+	color: hsl(356, 100%, 66%);
+}
+
+.hero-container p {
+	font-size: 1rem;
+	letter-spacing: 1px;
+}
+.cta {
+	display: flex;
+	padding-top: 2rem;
+	gap: 2rem;
+}
+.login:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-option:hover {
+	text-decoration: underline;
+}
+
+.sign-up:hover {
+	background-color: hsl(355, 100%, 74%);
+	color: white;
+}
+.image-right {
+	background-image: url("images/illustration-editor-desktop.svg");
+	background-repeat: no-repeat;
+	background-position: 850px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 15rem 0;
+	/*margin: 2rem 0 5rem 0;*/
+}
+
+.container {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.mobile-image {
+	width: 50%;
+}
+.text {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.text p, .text h3{
+	width: 60%;
+}
+
+.image-right h2 {
+	margin: 0 auto;
+	font-size: 2.5rem;
+	letter-spacing: -1px;
+	padding-bottom: 8rem;
+
+}
+
+ h3 {
+	font-size: 1.8rem;
+
+}
+.text p {
+	font-size: 1rem;
+}
+
+.main {
+	color: hsl(207, 13%, 34%);
+	line-height: 1.5;
+	font-weight: 300;
+}
+
+h2, h3, h4, h5 {
+	color: hsl(208, 49%, 24%);
+}
+
+
+
+.feature {
+	background: url("images/bg-pattern-circles.svg"),
+	linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+	background-repeat: no-repeat;
+	background-position: -30% 70%;
+	border-radius: 0 90px 0 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+
+.feature-image-container{
+
+}
+
+.feature h3, .feature p {
+	color: white;
+}
+
+.feature h3 {
+	font-size: 2.5rem;
+}
+
+.feature-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 40%;
+}
+
+.text h3 {
+	padding-top: 2rem;
+}
+
+.image-left {
+	display: flex;
+	background-image: url("images/illustration-laptop-desktop.svg");
+	background-repeat: no-repeat;
+	background-position: -280px;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	padding: 15rem 0;
+	/*margin: 2rem 0 5rem 0;*/
+}
+
+.image-left h3 {
+	font-size: 1.8rem;
+	padding-bottom: 2rem;
+}
+
+.section-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 50%;
+}
+
+
+.para {
+	width: 80%;
+}
+footer {
+
+	background-color: hsl(240, 10%, 16%);
+	border-radius: 0 90px 0 0;
+	padding-bottom: 1rem;
+}
+
+footer h5 {
+	color: white;
+}
+
+footer li {
+	color: hsl(240, 2%, 79%);
+}
+
+footer li:hover {
+	text-decoration: underline;
+}
+.footer-container {
+	display: flex;
+	margin: 0 auto;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	height: 100%;
+	padding-top: 5%;
+	line-height: 2;
+}
+
+.footer-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.mobile {
+	display: none;
+}
+
+
+@media(max-width: 1200px){
+	.login-signup {
+		flex-direction: column;
+	}
+}
+
+@media(max-width: 900px) {
+	.menu, .login-signup, .option-container{
+		display: none;
+
+	}
+	.brand {
+		padding: 0;
+	}
+
+	.hamburger {
+		display: inline;
+
+	}
+
+	.menu-container{
+	/*	width: 100%;*/
+	}
+
+
+	.image-left, .image-right{
+		background-image: none;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.image-right h2, .image-left h2 {
+		padding: 0;
+		font-size: 2rem;
+	}
+
+	.text {
+		width: 100%;
+	}
+	.feature {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.feature h3 {
+		font-size: 2rem;
+	}
+
+	.feature-text {
+		text-align: center;
+		width: 60%;
+		padding-bottom: 3rem;
+	}
+
+
+
+	.mobile {
+			display: flex;
+			flex-direction: column;
+
+		}
+		.mobile-image {
+			height: auto;
+			width: 100%;
+		}
+		.image-right, .image-left, .container {
+			flex-direction: column;
+			width: 100%;
+			padding: 2rem 0;
+		}
+
+		.footer-container {
+			flex-direction: column;
+			width: 100%;
+			align-items: center;
+			text-align: center;
+			padding-bottom: 2rem;
+		}
+		.footer-menu h5{
+			padding: 1rem 0;
+		}
+
+}
+
+@media(max-width: 800px) {
+		h1 {
+		font-size: 2rem;
+		width: 80%;
+	}
+
+
+
+}
+
+
+.mobile-menu {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 1em 0 gray;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	position: absolute;
+	width: 70vw;
+	right: 0;
+	top: 2rem;
+	padding: 1rem;
+	text-align: center;
+	align-items: center;
+	font-size: 1rem;
+	display: none;
+}
+#nested-login {
+	color: gray;
+	padding: 0;
+}
+
+.mobile-menu li {
+	color: darkgray;
+	padding: 5px 0;
+}
+
+hr {
+	height: 1px;
+	width: 90%;
+}
+
+.li-product, .li-connect, .li-company {
+	background-color: #f5f5f0;
+	margin: 0 auto;
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	display: none;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.nested li {
+	color: hsl(208, 49%, 24%);
+	font-size: 0.8em;
+}
+
+.nested li:hover {
+	color: hsl(356, 100%, 66%);
+}
+
+
+.mobile-menu-option:hover {
+	color: hsl(13, 100%, 72%);
+}
+#nested-login {
+background-color: rgba(0,0,0,0);
+color: hsl(208, 49%, 24%);
+padding-top: 20px;
+
+}
+
+
+
+#nested-login:hover {
+	color: hsl(356, 100%, 66%);
+}
+#nested-signup {
+/*	background-color: hsl(356, 100%, 66%);*/
+	background: linear-gradient(120deg, hsl(13, 100%, 72%), hsl(356, 100%, 66%));
+	color: white;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	margin: 10px 0;
+}
+
+#nested-signup:hover {
+	 background: hsl(13, 100%, 72%);
+}
+.mobile-arrow {
+	width: 15px;
+	padding-left: 7px;
+}
+
+.active {
+	display: flex;
+}
+
+.block {
+	display: none;
+}
+
+li.mobile-title {
+	padding: 1rem 0;
+}

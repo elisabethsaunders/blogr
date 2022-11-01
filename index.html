@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blogr</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+ <nav>
+ 	<div class="desktop-menu">
+ 		<div class="menu-container">
+		<div class="brand"><a href="#"><img src="images/logo.svg" alt="Blogr"></a></div>
+	<div class="option-container">
+			<ul class="menu">
+		<li class="nav-option">Product <img src="images/icon-arrow-light.svg" alt="down arrow" class="arrow">
+			<ul class="dropdown-product drop">
+				<li class="drop-option">Overview</li>
+				<li class="drop-option">Pricing</li>
+				<li class="drop-option">Marketplace</li>
+				<li class="drop-option">Features</li>
+				<li class="drop-option">Integrations</li>
+			</ul>
+		</li>
+		</div>
+	<div class="option-container">
+		<li class="nav-option">Company <img src="images/icon-arrow-light.svg" alt="down arrow" class="arrow">
+			<ul class="dropdown-company drop">
+				<li class="drop-option">About</li>
+				<li class="drop-option">Team</li>
+				<li class="drop-option">Blog</li>
+				<li class="drop-option">Careers</li>
+			</ul>
+		</li>
+	</div>
+	<div class="option-container">
+		<li class="nav-option">Connect <img src="images/icon-arrow-light.svg" alt="down arrow" class="arrow">
+			<ul class="dropdown-connect drop">
+				<li class="drop-option">Contact</li>
+				<li class="drop-option">Newsletter</li>
+				<li class="drop-option">LinkedIn</li>
+			</ul>
+		</li>
+	</div>
+	</ul>
+</div>
+<div class="login-signup">
+		<button type="submit" class="login button">Login</button>
+		<button type="submit" class="sign-up button">Sign Up</button>
+	</div>
+	</div>
+	<div class="hamburger">
+		<img src="images/icon-hamburger.svg" alt="hamburger menu" id="ham">
+	<div class="mobile-menu">
+	<ul>
+<!-- 		<a href="#" class="mobile-menu-option"><li>Product<img src="images/icon-arrow-dark.svg" class="mobile-arrow"></li></a>
+		<a href="#"class="mobile-menu-option"><li>Company<img src="images/icon-arrow-dark.svg" class="mobile-arrow"></li></a> -->
+			<a href="#" class="mobile-menu-option"><li class="mobile-title">Product<img src="images/icon-arrow-dark.svg" class="mobile-arrow"></a>
+			<ul class="nested li-product">
+			<li class="nested-menu-option">Overview</li>
+			<li class="nested-menu-option">Pricing</li>
+			<li class="nested-menu-option">Marketplace</li>
+			<li class="nested-menu-option">Features</li>
+			<li class="nested-menu-option">Integrations</li>
+		</ul>
+			</li>
+			<a href="#" class="mobile-menu-option"><li class="mobile-title">Company<img src="images/icon-arrow-dark.svg" class="mobile-arrow"></a>
+			<ul class="nested li-company">
+			<li class="nested-menu-option">About</li>
+			<li class="nested-menu-option">Team</li>
+			<li class="nested-menu-option">Blog</li>
+			<li class="nested-menu-option">Careers</li>
+		</ul>
+			</li>
+		<a href="#" class="mobile-menu-option"><li class="mobile-title">Connect<img src="images/icon-arrow-dark.svg" class="mobile-arrow"></a>
+			<ul class="nested li-connect">
+			<li class="nested-menu-option">Contact</li>
+			<li class="nested-menu-option">Newsletter</li>
+			<li class="nested-menu-option">LinkedIn</li>
+		</ul>
+			</li>
+	</ul>
+	<hr>
+      <button type="submit" id="nested-login" class="button">Login</button>
+		<button type="submit" id="nested-signup" class="button">Sign Up</button>
+	</div>
+	</div>
+ </nav>
+ <div class="hero-container">
+ <h1 class="hero-text">A modern publishing platform</h1>
+ <p>Grow your audience and build your online brand</p>
+<div class="cta">
+ <button type="submit" class="start button">Start for Free</button>
+ <button type="submit" class="learn-more button">Learn More</button>
+ 	</div>
+ </div>
+</header>
+<section class="image-right padding-mobile">
+	<h2>Designed for the Future</h2>
+	<div class="container">
+	<div class="mobile-image">
+		<img src="images/illustration-editor-mobile.svg" class="mobile">
+	</div>
+	<div class="text">
+		<h3>Introducing an extensible editor</h3>
+		<p class="main">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+			<h3>Robust content management</h3>
+			<p class="main">Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you're in full control.</p>
+	</div>
+	</div>
+	</section>
+<section class="feature">
+	<div class="feature-image-container">
+	<img src="images/illustration-phones.svg" alt="cellphone" class="feature-image">
+</div> 
+	<div class="feature-text">
+	<h3>State of the Art Infrastructure</h3>
+	<p>With reliability and speed in mind, wordwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+	</div>
+</section>
+<section class="image-left">
+	<div class="mobile-image">
+		<img src="images/illustration-laptop-mobile.svg" class="mobile">
+	</div>
+		<div class="text">
+		<h3>Free, open, simple</h3>
+		<p class="main">Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+			<h3>Powerful tooling</h3>
+			<p class="main">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.
+		</div>
+</div>
+	</section>
+<footer>
+	<div class="footer-container">
+		<div class="footer-logo">
+			<img src="images/logo.svg" alt="blogr">
+		</div>
+		<div class="footer-menu">
+			<h5>Product</h5>
+			<ul class="footer-list">
+				<a href="#"><li>Overview</li></a>
+				<a href="#"><li>Pricing</li></a>
+				<a href="#"><li>Marketplace</li></a>
+				<a href="#"><li>Features</li></a>
+				<a href="#"><li>Integrations</li></a>
+		</div>
+		<div class="footer-menu">
+			<h5>Company</h5>
+			<ul class="footer-list">
+				<a href="#"><li>About</li></a>
+				<a href="#"><li>Team</li></a>
+				<a href="#"><li>Blog</li></a>
+				<a href="#"><li>Careers</li></a>
+		</div>
+		<div class="footer-menu">
+			<h5>Connect</h5>
+			<ul class="footer-list">
+				<a href="#"><li>Contact</li></a>
+				<a href="#"><li>Newsletter</li></a>
+				<a href="#"><li>LinkedIn</li></a>
+		</div>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</footer>
+</body>
+</html>
